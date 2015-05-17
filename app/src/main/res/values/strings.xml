@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Auto Moyeu</string>
+    <string name="action_settings">Settings</string>
+    <color name="app_color">#ffd71310</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="label_color">#ad2050c5</color>
+    <color name="green">#ff00a300</color>
+    <string name="title_activity_select_main">SelectMainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_track_location">TrackLocation</string>
+    <string name="title_activity_order_form">OrderFormActivity</string>
+    <string name="title_activity_select_service">SelectServiceActivity</string>
+    <string name="title_activity_data_view">DataView</string>
+
+</resources>

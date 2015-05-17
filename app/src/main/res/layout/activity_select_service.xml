@@ -1,0 +1,253 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/select_service_padding"
+        android:paddingLeft="@dimen/select_service_padding"
+        tools:context="automoyeu.pk.automoyeu.SelectServiceActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Required Services"
+            android:padding="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/service_text_size"
+            android:textStyle="bold|italic"/>
+        <View
+            android:layout_height="@dimen/horizontal_line_height"
+            android:layout_width="match_parent"
+            android:background="@color/app_color" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:text="Oil Change"
+                android:textColor="@color/black"
+                android:textSize="@dimen/service_text_size"/>
+
+            <ImageButton
+                android:id="@+id/oilChange"
+                android:layout_width="@dimen/service_img_button_width"
+                android:layout_height="@dimen/service_img_button_height"
+                android:layout_gravity="right|center"
+                android:src="@drawable/plus"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/service_img_button_margin"
+                android:layout_marginBottom="@dimen/service_img_button_margin"
+                android:background="@color/white"
+                android:onClick="addService" />
+        </LinearLayout>
+        <View
+            android:layout_height="@dimen/horizontal_line_height"
+            android:layout_width="match_parent"
+            android:background="@color/app_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:text="Car Wash"
+                android:textColor="@color/black"
+                android:textSize="@dimen/service_text_size"/>
+
+            <ImageButton
+                android:id="@+id/carWash"
+                android:layout_width="@dimen/service_img_button_width"
+                android:layout_height="@dimen/service_img_button_height"
+                android:layout_gravity="right|center"
+                android:src="@drawable/plus"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/service_img_button_margin"
+                android:layout_marginBottom="@dimen/service_img_button_margin"
+                android:background="@color/white"
+                android:onClick="addService" />
+        </LinearLayout>
+        <View
+            android:layout_height="@dimen/horizontal_line_height"
+            android:layout_width="match_parent"
+            android:background="@color/app_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:text="Tuning"
+                android:textColor="@color/black"
+                android:textSize="@dimen/service_text_size"/>
+
+            <ImageButton
+                android:id="@+id/tuning"
+                android:layout_width="@dimen/service_img_button_width"
+                android:layout_height="@dimen/service_img_button_height"
+                android:layout_gravity="right|center"
+                android:src="@drawable/plus"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/service_img_button_margin"
+                android:layout_marginBottom="@dimen/service_img_button_margin"
+                android:background="@color/white"
+                android:onClick="addService" />
+        </LinearLayout>
+        <View
+            android:layout_height="@dimen/horizontal_line_height"
+            android:layout_width="match_parent"
+            android:background="@color/app_color" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:text="Detailed Checkup"
+                android:textColor="@color/black"
+                android:textSize="@dimen/service_text_size"/>>
+
+            <ImageButton
+                android:id="@+id/detailedCheckup"
+                android:layout_width="@dimen/service_img_button_width"
+                android:layout_height="@dimen/service_img_button_height"
+                android:layout_gravity="right|center"
+                android:src="@drawable/plus"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/service_img_button_margin"
+                android:layout_marginBottom="@dimen/service_img_button_margin"
+                android:background="@color/white"
+                android:onClick="addService" />
+        </LinearLayout>
+        <View
+            android:layout_height="@dimen/horizontal_line_height"
+            android:layout_width="match_parent"
+            android:background="@color/app_color" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:text="Traffic Challan Assistance"
+                android:textColor="@color/black"
+                android:textSize="@dimen/service_text_size"/>
+
+            <ImageButton
+                android:id="@+id/tCAssistance"
+                android:layout_width="@dimen/service_img_button_width"
+                android:layout_height="@dimen/service_img_button_height"
+                android:layout_gravity="right|center"
+                android:src="@drawable/plus"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/service_img_button_margin"
+                android:layout_marginBottom="@dimen/service_img_button_margin"
+                android:background="@color/white"
+                android:onClick="addService" />
+        </LinearLayout>
+        <View
+            android:layout_height="@dimen/horizontal_line_height"
+            android:layout_width="match_parent"
+            android:background="@color/app_color" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:text="Token Tax Assistance"
+                android:textColor="@color/black"
+                android:textSize="@dimen/service_text_size"/>
+
+            <ImageButton
+                android:id="@+id/tTAssistance"
+                android:layout_width="@dimen/service_img_button_width"
+                android:layout_height="@dimen/service_img_button_height"
+                android:layout_gravity="right|center"
+                android:src="@drawable/plus"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/service_img_button_margin"
+                android:layout_marginBottom="@dimen/service_img_button_margin"
+                android:background="@color/white"
+                android:onClick="addService" />
+        </LinearLayout>
+        <View
+            android:layout_height="@dimen/horizontal_line_height"
+            android:layout_width="match_parent"
+            android:background="@color/app_color" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:text="Other Value Added Services"
+                android:textColor="@color/black"
+                android:textSize="@dimen/service_text_size"/>
+
+            <ImageButton
+                android:id="@+id/otherServices"
+                android:layout_width="@dimen/service_img_button_width"
+                android:layout_height="@dimen/service_img_button_height"
+                android:layout_gravity="right|center"
+                android:src="@drawable/plus"
+                android:scaleType="fitXY"
+                android:layout_marginTop="@dimen/service_img_button_margin"
+                android:layout_marginBottom="@dimen/service_img_button_margin"
+                android:background="@color/white"
+                android:onClick="addService" />
+        </LinearLayout>
+        <View
+            android:layout_height="@dimen/horizontal_line_height"
+            android:layout_width="match_parent"
+            android:background="@color/app_color" />
+
+        <Button android:id="@+id/btnCheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="#ff118f19"
+            android:text="Checkout"
+            android:textColor="@color/black"
+            android:onClick="checkout" />
+    </LinearLayout>
+</ScrollView>
